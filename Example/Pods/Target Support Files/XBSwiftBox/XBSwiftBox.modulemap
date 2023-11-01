@@ -1,0 +1,6 @@
+framework module XBSwiftBox {
+  umbrella header "XBSwiftBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

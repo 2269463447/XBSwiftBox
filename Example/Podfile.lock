@@ -1,0 +1,16 @@
+PODS:
+  - XBSwiftBox (0.1.0)
+
+DEPENDENCIES:
+  - XBSwiftBox (from `../`)
+
+EXTERNAL SOURCES:
+  XBSwiftBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBSwiftBox: 70fbbe0eb46c488e0b75696836f21162e17867fd
+
+PODFILE CHECKSUM: 4b3f167bb63fc02a0a9388d05c3f6550f84838da
+
+COCOAPODS: 1.14.2

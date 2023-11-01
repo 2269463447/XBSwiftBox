@@ -1,0 +1,6 @@
+framework module Pods_XBSwiftBox_Example {
+  umbrella header "Pods-XBSwiftBox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

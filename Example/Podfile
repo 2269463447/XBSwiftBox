@@ -1,13 +1,15 @@
-use_frameworks!
+source 'https://github.com/2269463447/XBSwiftBox.git'
 
-platform :ios, '10.0'
+use_frameworks!
+platform :ios, '13.0'
 
 target 'XBSwiftBox_Example' do
   pod 'XBSwiftBox', :path => '../'
-
+  cd
+  
   target 'XBSwiftBox_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+   # pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end
