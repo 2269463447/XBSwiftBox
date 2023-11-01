@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// MARK: - mark
 
 // 屏幕宽度
 public let ScreenWidth = UIScreen.main.bounds.width
