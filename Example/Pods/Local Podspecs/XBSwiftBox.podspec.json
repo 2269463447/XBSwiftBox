@@ -1,9 +1,9 @@
 {
   "name": "XBSwiftBox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of XBSwiftBox.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zxb/XBSwiftBox",
+  "homepage": "https://github.com/2269463447/XBSwiftBox.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "zxb": "2269463447@qq.com"
   },
   "source": {
-    "git": "https://github.com/zxb/XBSwiftBox.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/2269463447/XBSwiftBox.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "source_files": "XBSwiftBox/Classes/**/*"
 }

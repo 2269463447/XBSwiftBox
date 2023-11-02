@@ -15,6 +15,12 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9AE2F3052AF2368100344380 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2F3072AF2368100344380 /* Localizable.strings */; };
 		9AE2F30F2AF23F2F00344380 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F30E2AF23F2F00344380 /* Constants.swift */; };
+		9AE2F3112AF3326900344380 /* XBSwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F3102AF3326900344380 /* XBSwiftBox.swift */; };
+		9AE2F3132AF332D900344380 /* UIColor+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F3122AF332D900344380 /* UIColor+SwiftBox.swift */; };
+		9AE2F3172AF3360E00344380 /* UITextInput+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F3162AF3360E00344380 /* UITextInput+SwiftBox.swift */; };
+		9AE2F3192AF3364800344380 /* UIView+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F3182AF3364800344380 /* UIView+SwiftBox.swift */; };
+		9AE2F31B2AF336B700344380 /* UIView+Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F31A2AF336B700344380 /* UIView+Touchable.swift */; };
+		9AE2F31D2AF3373B00344380 /* UIWindow+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F31C2AF3373B00344380 /* UIWindow+SwiftBox.swift */; };
 		CE42319DD496CC8084792007 /* Pods_XBSwiftBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59D2A140EB2F823B449529B /* Pods_XBSwiftBox_Example.framework */; };
 		CEA9C2722C3DDD29897DC821 /* Pods_XBSwiftBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27986F43D15D4D990C5C075A /* Pods_XBSwiftBox_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +58,12 @@
 		9AE2F30A2AF2372B00344380 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		9AE2F30B2AF2372F00344380 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9AE2F30E2AF23F2F00344380 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9AE2F3102AF3326900344380 /* XBSwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBSwiftBox.swift; sourceTree = "<group>"; };
+		9AE2F3122AF332D900344380 /* UIColor+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SwiftBox.swift"; sourceTree = "<group>"; };
+		9AE2F3162AF3360E00344380 /* UITextInput+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextInput+SwiftBox.swift"; sourceTree = "<group>"; };
+		9AE2F3182AF3364800344380 /* UIView+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SwiftBox.swift"; sourceTree = "<group>"; };
+		9AE2F31A2AF336B700344380 /* UIView+Touchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Touchable.swift"; sourceTree = "<group>"; };
+		9AE2F31C2AF3373B00344380 /* UIWindow+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+SwiftBox.swift"; sourceTree = "<group>"; };
 		D59D2A140EB2F823B449529B /* Pods_XBSwiftBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBSwiftBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCABA174750A83D21910262B /* Pods-XBSwiftBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBSwiftBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-XBSwiftBox_Tests/Pods-XBSwiftBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +182,12 @@
 			isa = PBXGroup;
 			children = (
 				9AE2F30E2AF23F2F00344380 /* Constants.swift */,
+				9AE2F3102AF3326900344380 /* XBSwiftBox.swift */,
+				9AE2F3122AF332D900344380 /* UIColor+SwiftBox.swift */,
+				9AE2F3162AF3360E00344380 /* UITextInput+SwiftBox.swift */,
+				9AE2F3182AF3364800344380 /* UIView+SwiftBox.swift */,
+				9AE2F31A2AF336B700344380 /* UIView+Touchable.swift */,
+				9AE2F31C2AF3373B00344380 /* UIWindow+SwiftBox.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -368,8 +386,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9AE2F31D2AF3373B00344380 /* UIWindow+SwiftBox.swift in Sources */,
+				9AE2F31B2AF336B700344380 /* UIView+Touchable.swift in Sources */,
+				9AE2F3192AF3364800344380 /* UIView+SwiftBox.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9AE2F3132AF332D900344380 /* UIColor+SwiftBox.swift in Sources */,
 				9AE2F30F2AF23F2F00344380 /* Constants.swift in Sources */,
+				9AE2F3112AF3326900344380 /* XBSwiftBox.swift in Sources */,
+				9AE2F3172AF3360E00344380 /* UITextInput+SwiftBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

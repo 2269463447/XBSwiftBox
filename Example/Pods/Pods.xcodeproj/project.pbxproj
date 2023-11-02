@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4EF6A3748399C1DE7C32CA2DF0BB6D /* UIColor+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8266AE77BC1262319965BAB148B000 /* UIColor+SwiftBox.swift */; };
+		2180A21A9FECE52DE265E36475F2855C /* XBSwiftBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33235FF2D459EFC1D68E2A6858BFFD /* XBSwiftBox-dummy.m */; };
+		2C2AEAAE66D2EEBD7596F24BD957715E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3F92A2091788CECC631A580E252848D7 /* Pods-XBSwiftBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7565E77523FE8C406575AB258FCE503C /* Pods-XBSwiftBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43AC1BACDCFBD4472A45AD6D096906AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97960A71E0A7338035D12784D687E7A7 /* Constants.swift */; };
+		48363A4E138C362EC7719D0293E4B5D2 /* UIWindow+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122133B21793D838121D3E81624CC2F /* UIWindow+SwiftBox.swift */; };
 		4DEF4DC5325740C70FCCBF97E7365BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		712DB86DC99960DFA3231F2FA3346422 /* XBSwiftBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB13ABAE1482C424171FCB01B489E167 /* XBSwiftBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D2DD79D8E24BB755FA8DF9E8457253 /* UITextInput+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507DFD337F90E31B85BBCEDEC6BF93C /* UITextInput+SwiftBox.swift */; };
+		6EA769E8D6F6646270DA18A3290B0955 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20D35F2758FF15F3EB6C899530DA25 /* Constants.swift */; };
 		880F12FC7B11143280C76E1B38B97A93 /* Pods-XBSwiftBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F254C4BD9E309CD55D0388A72B6 /* Pods-XBSwiftBox_Example-dummy.m */; };
 		9E8F26C036F395B4C492B0C7862C1EB6 /* Pods-XBSwiftBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5068604BABFA045F5E4C3402515CB9E9 /* Pods-XBSwiftBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C35FCC22FC7A8AA23C89116CA3E2591E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADAA46453DF674F1588DC393B5ECEC41 /* XBSwiftBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CD7B8A9603AEEEA5054DD62F3CFB81 /* XBSwiftBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B7644774DEF50567132650AC33132 /* UIView+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824D2CBE9EE9D21B9AC8BD7AE4175C4 /* UIView+SwiftBox.swift */; };
+		C5F6A91DD9C00E82076294D03205DE0B /* XBSwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391928529F33DFA58FAE85A6A3A91F5D /* XBSwiftBox.swift */; };
 		C63DBE9ABF36A78EE9639A40E2B79E1B /* Pods-XBSwiftBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFFDCF7028C19E9ECF19C7D303F50A1 /* Pods-XBSwiftBox_Tests-dummy.m */; };
+		D59DBD00C338C476D457693F88F27C3F /* UIView+Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B9E233097C5D56A5D1B1B6FB3BE63 /* UIView+Touchable.swift */; };
 		E346D42629633B4E06BBD847EF2023B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FB3CAC9617A003FB4D66EA56C6482F46 /* XBSwiftBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA732EA2F2E64DED01B4F86F4AE0F71 /* XBSwiftBox-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		983EFDB44D74B122FF65077C868D617B /* PBXContainerItemProxy */ = {
+		21353294139A820FDADFE6C1A08F4BA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8340D648F7EC1EA52ED2478D46AF3561;
 			remoteInfo = "Pods-XBSwiftBox_Example";
 		};
-		E367EDB7F9440E5D19D3384AF91E2111 /* PBXContainerItemProxy */ = {
+		859CE73F1B1F79275BAC46D0E1FF30A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,39 +46,53 @@
 		04FE2F254C4BD9E309CD55D0388A72B6 /* Pods-XBSwiftBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBSwiftBox_Example-dummy.m"; sourceTree = "<group>"; };
 		1A1F3AB20903CAE44EC1A3F40A437CAF /* Pods-XBSwiftBox_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XBSwiftBox_Example"; path = Pods_XBSwiftBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7B33359A9ED61471277939D37AE0DB /* Pods-XBSwiftBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBSwiftBox_Example.modulemap"; sourceTree = "<group>"; };
-		299E0BF03F193DE129663EF03DA80C75 /* XBSwiftBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XBSwiftBox-Info.plist"; sourceTree = "<group>"; };
+		2E20D35F2758FF15F3EB6C899530DA25 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = XBSwiftBox/Classes/Constants.swift; sourceTree = "<group>"; };
 		35798D409681357F314EE50F413ADFF2 /* Pods-XBSwiftBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		391928529F33DFA58FAE85A6A3A91F5D /* XBSwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XBSwiftBox.swift; path = XBSwiftBox/Classes/XBSwiftBox.swift; sourceTree = "<group>"; };
 		40032011B6CC1FB9E8578F5DEFAB7080 /* Pods-XBSwiftBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Example-Info.plist"; sourceTree = "<group>"; };
-		4FC3BEC68A55F7134DCFF5F9F542D566 /* XBSwiftBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-prefix.pch"; sourceTree = "<group>"; };
+		49CD7B8A9603AEEEA5054DD62F3CFB81 /* XBSwiftBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-umbrella.h"; sourceTree = "<group>"; };
 		5068604BABFA045F5E4C3402515CB9E9 /* Pods-XBSwiftBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBSwiftBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		589FBA81458217418841CDCE2758A2AB /* XBSwiftBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBSwiftBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A33235FF2D459EFC1D68E2A6858BFFD /* XBSwiftBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBSwiftBox-dummy.m"; sourceTree = "<group>"; };
 		5C4A338F2991998F696D09802AB7D535 /* Pods-XBSwiftBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		62CAFA87C3B5E18B8F8C03B8CCEACA68 /* XBSwiftBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.release.xcconfig; sourceTree = "<group>"; };
+		646E55A13EA792E503AD83A1AFC54E3C /* XBSwiftBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBSwiftBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6867D9C10DC0B193713FEE096030C224 /* XBSwiftBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XBSwiftBox-Info.plist"; sourceTree = "<group>"; };
+		6E8266AE77BC1262319965BAB148B000 /* UIColor+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+SwiftBox.swift"; path = "XBSwiftBox/Classes/UIColor+SwiftBox.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7565E77523FE8C406575AB258FCE503C /* Pods-XBSwiftBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBSwiftBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		79B7A507690EED434C1EDCC3049309C6 /* XBSwiftBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.debug.xcconfig; sourceTree = "<group>"; };
+		7A2D675263CB534DA320C242B81E530C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7A528C6A8FB1BE593644AE1310481888 /* Pods-XBSwiftBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBSwiftBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BFFDCF7028C19E9ECF19C7D303F50A1 /* Pods-XBSwiftBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBSwiftBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D3F3F1A7908FDE537AE3CD5A16B6D78 /* Pods-XBSwiftBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBSwiftBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E8A526F59014A429BD7C3DD18BE8348 /* Pods-XBSwiftBox_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XBSwiftBox_Tests"; path = Pods_XBSwiftBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83755DE24D11FDF8B4FFF12ABEB9C5DF /* Pods-XBSwiftBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBSwiftBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97960A71E0A7338035D12784D687E7A7 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = XBSwiftBox/Classes/Constants.swift; sourceTree = "<group>"; };
+		905B9E233097C5D56A5D1B1B6FB3BE63 /* UIView+Touchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Touchable.swift"; path = "XBSwiftBox/Classes/UIView+Touchable.swift"; sourceTree = "<group>"; };
+		96C207C99D5D3011006E414F571BEF1D /* XBSwiftBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XBSwiftBox.modulemap; sourceTree = "<group>"; };
 		9A806F3A45A6F7AB8534895BE0B7DC23 /* Pods-XBSwiftBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBSwiftBox_Tests.modulemap"; sourceTree = "<group>"; };
-		9B74F10B7C2DB7C70BE32F575471D69F /* XBSwiftBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A15AA1D21B3ED3151635BAFECB5166CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A686B31F7BCE645BED9288CED1A7042F /* XBSwiftBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.release.xcconfig; sourceTree = "<group>"; };
-		ABA732EA2F2E64DED01B4F86F4AE0F71 /* XBSwiftBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XBSwiftBox-dummy.m"; sourceTree = "<group>"; };
-		B27B297BD7B2BD9187CA393F24C24766 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A507DFD337F90E31B85BBCEDEC6BF93C /* UITextInput+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextInput+SwiftBox.swift"; path = "XBSwiftBox/Classes/UITextInput+SwiftBox.swift"; sourceTree = "<group>"; };
+		A824D2CBE9EE9D21B9AC8BD7AE4175C4 /* UIView+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SwiftBox.swift"; path = "XBSwiftBox/Classes/UIView+SwiftBox.swift"; sourceTree = "<group>"; };
+		AA29C28FE8287B9E79C4097A802AB885 /* XBSwiftBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-prefix.pch"; sourceTree = "<group>"; };
 		B312E8809B8A81FB76244A0C97C59077 /* Pods-XBSwiftBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBSwiftBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9DB20416B229B0758206ADBE167FF90 /* Pods-XBSwiftBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBSwiftBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB13ABAE1482C424171FCB01B489E167 /* XBSwiftBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-umbrella.h"; sourceTree = "<group>"; };
 		DE664DFCABDC1B7C17D952CD568B85AE /* Pods-XBSwiftBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XBSwiftBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E1D3392B71B45DA8BE6F3012C9B91FCF /* Pods-XBSwiftBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E86CB3CF5D336860EF7B9010D05AD626 /* XBSwiftBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XBSwiftBox.modulemap; sourceTree = "<group>"; };
+		F122133B21793D838121D3E81624CC2F /* UIWindow+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+SwiftBox.swift"; path = "XBSwiftBox/Classes/UIWindow+SwiftBox.swift"; sourceTree = "<group>"; };
+		F574F0E8384F7A6D0C5113AF1BCB886C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FDA1C5A3D282D54ABF4EFDD253067AFD /* XBSwiftBox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XBSwiftBox; path = XBSwiftBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB6D55E6002ED32FE4024E2464902A5 /* Pods-XBSwiftBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBSwiftBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1AAE9208DAFB6D6E6831BC5527A1C66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2AEAAE66D2EEBD7596F24BD957715E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EC19F448C035F71AF01CE0B6C82F92A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,17 +109,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C72926F8F0A00DDE9116F2510C0326BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C35FCC22FC7A8AA23C89116CA3E2591E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5800F21A82490196BED88C226754D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D675263CB534DA320C242B81E530C /* LICENSE */,
+				F574F0E8384F7A6D0C5113AF1BCB886C /* README.md */,
+				646E55A13EA792E503AD83A1AFC54E3C /* XBSwiftBox.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,33 +130,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5CAB26BA5672A3FD31F0EAFA73F010AE /* XBSwiftBox */ = {
+		B332C8AE8160D206B64AB943F658C81F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				97960A71E0A7338035D12784D687E7A7 /* Constants.swift */,
-				7F8BB8FED9F854746F4739E7AFB069EA /* Pod */,
-				F0440B52FF24B61F061E6F38962293FC /* Support Files */,
+				96C207C99D5D3011006E414F571BEF1D /* XBSwiftBox.modulemap */,
+				5A33235FF2D459EFC1D68E2A6858BFFD /* XBSwiftBox-dummy.m */,
+				6867D9C10DC0B193713FEE096030C224 /* XBSwiftBox-Info.plist */,
+				AA29C28FE8287B9E79C4097A802AB885 /* XBSwiftBox-prefix.pch */,
+				49CD7B8A9603AEEEA5054DD62F3CFB81 /* XBSwiftBox-umbrella.h */,
+				79B7A507690EED434C1EDCC3049309C6 /* XBSwiftBox.debug.xcconfig */,
+				62CAFA87C3B5E18B8F8C03B8CCEACA68 /* XBSwiftBox.release.xcconfig */,
 			);
-			name = XBSwiftBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7F8BB8FED9F854746F4739E7AFB069EA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A15AA1D21B3ED3151635BAFECB5166CE /* LICENSE */,
-				B27B297BD7B2BD9187CA393F24C24766 /* README.md */,
-				589FBA81458217418841CDCE2758A2AB /* XBSwiftBox.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8F7EA732BB856073704052BAE1ED762C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CAB26BA5672A3FD31F0EAFA73F010AE /* XBSwiftBox */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XBSwiftBox";
 			sourceTree = "<group>";
 		};
 		BE9C1BB32D44C25179D0D2C96F5C267E /* Targets Support Files */ = {
@@ -150,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8F7EA732BB856073704052BAE1ED762C /* Development Pods */,
+				F601913278CCB03B986262184681F2C6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F56E7B67F567EA04B713B157E54D3A5B /* Products */,
 				BE9C1BB32D44C25179D0D2C96F5C267E /* Targets Support Files */,
@@ -181,6 +189,23 @@
 			path = "Target Support Files/Pods-XBSwiftBox_Tests";
 			sourceTree = "<group>";
 		};
+		EEA7D9969552C2A36E15FB5F640E969C /* XBSwiftBox */ = {
+			isa = PBXGroup;
+			children = (
+				2E20D35F2758FF15F3EB6C899530DA25 /* Constants.swift */,
+				6E8266AE77BC1262319965BAB148B000 /* UIColor+SwiftBox.swift */,
+				A507DFD337F90E31B85BBCEDEC6BF93C /* UITextInput+SwiftBox.swift */,
+				A824D2CBE9EE9D21B9AC8BD7AE4175C4 /* UIView+SwiftBox.swift */,
+				905B9E233097C5D56A5D1B1B6FB3BE63 /* UIView+Touchable.swift */,
+				F122133B21793D838121D3E81624CC2F /* UIWindow+SwiftBox.swift */,
+				391928529F33DFA58FAE85A6A3A91F5D /* XBSwiftBox.swift */,
+				3A5800F21A82490196BED88C226754D4 /* Pod */,
+				B332C8AE8160D206B64AB943F658C81F /* Support Files */,
+			);
+			name = XBSwiftBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		EF744B2B10F514FF7022F22E062ACBC3 /* Pods-XBSwiftBox_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,21 +223,6 @@
 			path = "Target Support Files/Pods-XBSwiftBox_Example";
 			sourceTree = "<group>";
 		};
-		F0440B52FF24B61F061E6F38962293FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E86CB3CF5D336860EF7B9010D05AD626 /* XBSwiftBox.modulemap */,
-				ABA732EA2F2E64DED01B4F86F4AE0F71 /* XBSwiftBox-dummy.m */,
-				299E0BF03F193DE129663EF03DA80C75 /* XBSwiftBox-Info.plist */,
-				4FC3BEC68A55F7134DCFF5F9F542D566 /* XBSwiftBox-prefix.pch */,
-				CB13ABAE1482C424171FCB01B489E167 /* XBSwiftBox-umbrella.h */,
-				9B74F10B7C2DB7C70BE32F575471D69F /* XBSwiftBox.debug.xcconfig */,
-				A686B31F7BCE645BED9288CED1A7042F /* XBSwiftBox.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XBSwiftBox";
-			sourceTree = "<group>";
-		};
 		F56E7B67F567EA04B713B157E54D3A5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +231,14 @@
 				FDA1C5A3D282D54ABF4EFDD253067AFD /* XBSwiftBox */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F601913278CCB03B986262184681F2C6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEA7D9969552C2A36E15FB5F640E969C /* XBSwiftBox */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +260,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6A1FBC249781E8D7263905BF4F261C0 /* Headers */ = {
+		E1C70F0A178810411E4FF63D4DA6FD4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				712DB86DC99960DFA3231F2FA3346422 /* XBSwiftBox-umbrella.h in Headers */,
+				ADAA46453DF674F1588DC393B5ECEC41 /* XBSwiftBox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6A3F538F8DA39E7C425D6CCD6354628B /* PBXTargetDependency */,
+				EB315008CF16C0533988BD1F31013FE6 /* PBXTargetDependency */,
 			);
 			name = "Pods-XBSwiftBox_Tests";
 			productName = Pods_XBSwiftBox_Tests;
@@ -284,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0FE4AF5E50C9DEF49F62B0928856DE0E /* PBXTargetDependency */,
+				2A5A6CCD70E0D1B0A372C38A72876983 /* PBXTargetDependency */,
 			);
 			name = "Pods-XBSwiftBox_Example";
 			productName = Pods_XBSwiftBox_Example;
@@ -293,12 +311,12 @@
 		};
 		836D50B3D3C51647A305030E05A1EA12 /* XBSwiftBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342BC30FA487205280AF110820FC9887 /* Build configuration list for PBXNativeTarget "XBSwiftBox" */;
+			buildConfigurationList = F045A826DCDD8DB14E4C2F297F2DE258 /* Build configuration list for PBXNativeTarget "XBSwiftBox" */;
 			buildPhases = (
-				B6A1FBC249781E8D7263905BF4F261C0 /* Headers */,
-				A922B03044200D43FF039C30C3461C9E /* Sources */,
-				C72926F8F0A00DDE9116F2510C0326BF /* Frameworks */,
-				052DBE64C2ADD1172F20F1450BC4CD30 /* Resources */,
+				E1C70F0A178810411E4FF63D4DA6FD4A /* Headers */,
+				B9C5C42CD96343F581A2A6061B2B24A9 /* Sources */,
+				1AAE9208DAFB6D6E6831BC5527A1C66C /* Frameworks */,
+				1728B3BD55A61D8800F3DE3B83F52C4B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +357,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		052DBE64C2ADD1172F20F1450BC4CD30 /* Resources */ = {
+		0822B655BEB788852E92ECDFCAD29908 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0822B655BEB788852E92ECDFCAD29908 /* Resources */ = {
+		1728B3BD55A61D8800F3DE3B83F52C4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +381,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A922B03044200D43FF039C30C3461C9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43AC1BACDCFBD4472A45AD6D096906AF /* Constants.swift in Sources */,
-				FB3CAC9617A003FB4D66EA56C6482F46 /* XBSwiftBox-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE09A1F5B9DD295A7370BB5C52CCFF6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C63DBE9ABF36A78EE9639A40E2B79E1B /* Pods-XBSwiftBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C5C42CD96343F581A2A6061B2B24A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA769E8D6F6646270DA18A3290B0955 /* Constants.swift in Sources */,
+				1A4EF6A3748399C1DE7C32CA2DF0BB6D /* UIColor+SwiftBox.swift in Sources */,
+				65D2DD79D8E24BB755FA8DF9E8457253 /* UITextInput+SwiftBox.swift in Sources */,
+				B84B7644774DEF50567132650AC33132 /* UIView+SwiftBox.swift in Sources */,
+				D59DBD00C338C476D457693F88F27C3F /* UIView+Touchable.swift in Sources */,
+				48363A4E138C362EC7719D0293E4B5D2 /* UIWindow+SwiftBox.swift in Sources */,
+				C5F6A91DD9C00E82076294D03205DE0B /* XBSwiftBox.swift in Sources */,
+				2180A21A9FECE52DE265E36475F2855C /* XBSwiftBox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,21 +415,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FE4AF5E50C9DEF49F62B0928856DE0E /* PBXTargetDependency */ = {
+		2A5A6CCD70E0D1B0A372C38A72876983 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XBSwiftBox;
 			target = 836D50B3D3C51647A305030E05A1EA12 /* XBSwiftBox */;
-			targetProxy = E367EDB7F9440E5D19D3384AF91E2111 /* PBXContainerItemProxy */;
+			targetProxy = 859CE73F1B1F79275BAC46D0E1FF30A7 /* PBXContainerItemProxy */;
 		};
-		6A3F538F8DA39E7C425D6CCD6354628B /* PBXTargetDependency */ = {
+		EB315008CF16C0533988BD1F31013FE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XBSwiftBox_Example";
 			target = 8340D648F7EC1EA52ED2478D46AF3561 /* Pods-XBSwiftBox_Example */;
-			targetProxy = 983EFDB44D74B122FF65077C868D617B /* PBXContainerItemProxy */;
+			targetProxy = 21353294139A820FDADFE6C1A08F4BA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1AA600FC062D82F908440B2192DFFB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CAFA87C3B5E18B8F8C03B8CCEACA68 /* XBSwiftBox.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XBSwiftBox/XBSwiftBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox.modulemap";
+				PRODUCT_MODULE_NAME = XBSwiftBox;
+				PRODUCT_NAME = XBSwiftBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		372971820D4F475A14017D73B25CCDAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D3F3F1A7908FDE537AE3CD5A16B6D78 /* Pods-XBSwiftBox_Example.debug.xcconfig */;
@@ -434,6 +491,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		416FD48B899EEDDE53C7A30332BEEE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B7A507690EED434C1EDCC3049309C6 /* XBSwiftBox.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XBSwiftBox/XBSwiftBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox.modulemap";
+				PRODUCT_MODULE_NAME = XBSwiftBox;
+				PRODUCT_NAME = XBSwiftBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -568,39 +657,6 @@
 			};
 			name = Release;
 		};
-		D24B7FC214566EB2A9C6C1FE0B2E363D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A686B31F7BCE645BED9288CED1A7042F /* XBSwiftBox.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XBSwiftBox/XBSwiftBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox.modulemap";
-				PRODUCT_MODULE_NAME = XBSwiftBox;
-				PRODUCT_NAME = XBSwiftBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E5DECE03E81B556C7744F9D3F917C45F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A528C6A8FB1BE593644AE1310481888 /* Pods-XBSwiftBox_Tests.debug.xcconfig */;
@@ -670,38 +726,6 @@
 			};
 			name = Release;
 		};
-		ED064EDF55740ECABC8C77969C67BA61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B74F10B7C2DB7C70BE32F575471D69F /* XBSwiftBox.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XBSwiftBox/XBSwiftBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XBSwiftBox/XBSwiftBox.modulemap";
-				PRODUCT_MODULE_NAME = XBSwiftBox;
-				PRODUCT_NAME = XBSwiftBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F062F8AB0440717DBF7C9D73E4FA9B05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFB6D55E6002ED32FE4024E2464902A5 /* Pods-XBSwiftBox_Tests.release.xcconfig */;
@@ -740,15 +764,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342BC30FA487205280AF110820FC9887 /* Build configuration list for PBXNativeTarget "XBSwiftBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED064EDF55740ECABC8C77969C67BA61 /* Debug */,
-				D24B7FC214566EB2A9C6C1FE0B2E363D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -772,6 +787,15 @@
 			buildConfigurations = (
 				372971820D4F475A14017D73B25CCDAA /* Debug */,
 				EC4EE8E6F6639C153E9193C3FC7C6862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F045A826DCDD8DB14E4C2F297F2DE258 /* Build configuration list for PBXNativeTarget "XBSwiftBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416FD48B899EEDDE53C7A30332BEEE40 /* Debug */,
+				1AA600FC062D82F908440B2192DFFB14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

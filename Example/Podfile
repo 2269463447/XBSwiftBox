@@ -1,11 +1,11 @@
-source 'https://github.com/2269463447/XBSwiftBox.git'
+source 'https://github.com/2269463447/XBSwiftBoxSpec.git'
 
 use_frameworks!
 platform :ios, '13.0'
 
 target 'XBSwiftBox_Example' do
   pod 'XBSwiftBox', :path => '../'
-  cd
+  
   
   target 'XBSwiftBox_Tests' do
     inherit! :search_paths
