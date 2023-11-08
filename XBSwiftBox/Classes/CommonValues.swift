@@ -35,7 +35,7 @@ var keyWindow: UIWindow? {
     return window
 }
 
-var statusBarHeight: CGFloat {
+public var statusBarHeight: CGFloat {
     var height: CGFloat = 0
     if #available(iOS 13.0, *) {
         for scene in UIApplication.shared.connectedScenes {
@@ -52,7 +52,7 @@ var statusBarHeight: CGFloat {
 }
 
 
-var navigationBarHeight: CGFloat {
+public var navigationBarHeight: CGFloat {
     var topInset: CGFloat = 0
     if let window = keyWindow {
         topInset = window.safeAreaInsets.top
@@ -63,7 +63,7 @@ var navigationBarHeight: CGFloat {
     return 44 + topInset
 }
 
-var tabBarHeight: CGFloat {
+public var tabBarHeight: CGFloat {
     var height: CGFloat = 56
     if let window = keyWindow, window.safeAreaInsets.bottom > 0 {
         height = 90
@@ -72,7 +72,7 @@ var tabBarHeight: CGFloat {
 }
 
 
-var topViewController: UIViewController {
+public var topViewController: UIViewController {
     func searchTop(for vc: UIViewController?) -> UIViewController? {
         if let nav = vc as? UINavigationController {
             return searchTop(for: nav.topViewController)
