@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9A97BE752AFB212E00566C49 /* CommonValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97BE742AFB212E00566C49 /* CommonValues.swift */; };
 		9AE2F3052AF2368100344380 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2F3072AF2368100344380 /* Localizable.strings */; };
 		9AE2F30F2AF23F2F00344380 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F30E2AF23F2F00344380 /* Constants.swift */; };
 		9AE2F3112AF3326900344380 /* XBSwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F3102AF3326900344380 /* XBSwiftBox.swift */; };
@@ -53,6 +54,7 @@
 		63C60FB7D7F9E81C23B94B2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8643FD4ED08AA97EE5FE25C4 /* Pods-XBSwiftBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBSwiftBox_Example.release.xcconfig"; path = "Target Support Files/Pods-XBSwiftBox_Example/Pods-XBSwiftBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		892E63BDD76D657B1F413D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A97BE742AFB212E00566C49 /* CommonValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonValues.swift; sourceTree = "<group>"; };
 		9AE2F3082AF2368300344380 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9AE2F3092AF2372B00344380 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		9AE2F30A2AF2372B00344380 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				9AE2F3182AF3364800344380 /* UIView+SwiftBox.swift */,
 				9AE2F31A2AF336B700344380 /* UIView+Touchable.swift */,
 				9AE2F31C2AF3373B00344380 /* UIWindow+SwiftBox.swift */,
+				9A97BE742AFB212E00566C49 /* CommonValues.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				9AE2F3192AF3364800344380 /* UIView+SwiftBox.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				9AE2F3132AF332D900344380 /* UIColor+SwiftBox.swift in Sources */,
+				9A97BE752AFB212E00566C49 /* CommonValues.swift in Sources */,
 				9AE2F30F2AF23F2F00344380 /* Constants.swift in Sources */,
 				9AE2F3112AF3326900344380 /* XBSwiftBox.swift in Sources */,
 				9AE2F3172AF3360E00344380 /* UITextInput+SwiftBox.swift in Sources */,
