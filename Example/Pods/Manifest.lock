@@ -1,5 +1,5 @@
 PODS:
-  - XBSwiftBox (0.1.2)
+  - XBSwiftBox (0.1.4)
 
 DEPENDENCIES:
   - XBSwiftBox (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XBSwiftBox: 92f01b66d03885e4063d47eb2d84143ad2e455eb
+  XBSwiftBox: 729aa03dff23ed38d1156efb8f968e7892d689d2
 
 PODFILE CHECKSUM: 170c7f86c41c5a639ee85d8e16df4544b5d4f00a
 

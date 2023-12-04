@@ -1,6 +1,6 @@
 {
   "name": "XBSwiftBox",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of XBSwiftBox.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/2269463447/XBSwiftBox.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/2269463447/XBSwiftBox.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "13.0"
