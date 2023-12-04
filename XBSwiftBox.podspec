@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'zxb' => '2269463447@qq.com' }
   s.source           = { :git => 'https://github.com/2269463447/XBSwiftBox.git', :tag => '0.1.5'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_versions = ['5.0']
 
   s.ios.deployment_target = '13.0'
 
