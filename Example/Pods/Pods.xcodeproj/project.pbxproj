@@ -18,6 +18,17 @@
 		880F12FC7B11143280C76E1B38B97A93 /* Pods-XBSwiftBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2F254C4BD9E309CD55D0388A72B6 /* Pods-XBSwiftBox_Example-dummy.m */; };
 		89F526F5F229A3D1C15FA4B03A1FE32C /* UIWindow+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C445CEFED7B564231B328067FC6763 /* UIWindow+SwiftBox.swift */; };
 		95F2A2B273B74AD0C3F8DD80E4E8D3A3 /* UIView+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE084B357F8E70B7D2BDF004F794DC /* UIView+SwiftBox.swift */; };
+		9A7CE37B2BAC0F9100E48F5E /* CALayer+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE37A2BAC0F9100E48F5E /* CALayer+SwiftBox.swift */; };
+		9A7CE37D2BAC0FE200E48F5E /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE37C2BAC0FE200E48F5E /* CustomNavigationBar.swift */; };
+		9A7CE37F2BAC100D00E48F5E /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE37E2BAC100D00E48F5E /* Data+Gzip.swift */; };
+		9A7CE3812BAC103300E48F5E /* FormListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE3802BAC103300E48F5E /* FormListView.swift */; };
+		9A7CE3832BAC104600E48F5E /* FreeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE3822BAC104600E48F5E /* FreeLayout.swift */; };
+		9A7CE3852BAC10A000E48F5E /* NSLayoutConstraint+PixelLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE3842BAC10A000E48F5E /* NSLayoutConstraint+PixelLine.swift */; };
+		9A7CE3872BAC10B400E48F5E /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE3862BAC10B400E48F5E /* Optional+Extension.swift */; };
+		9A7CE3892BAC110000E48F5E /* StackBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE3882BAC110000E48F5E /* StackBuilder.swift */; };
+		9A7CE38B2BAC111600E48F5E /* StretchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE38A2BAC111600E48F5E /* StretchableView.swift */; };
+		9A7CE38D2BAC112900E48F5E /* String+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE38C2BAC112900E48F5E /* String+Add.swift */; };
+		9A7CE38F2BAC119F00E48F5E /* UINavigationController+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE38E2BAC119F00E48F5E /* UINavigationController+SwiftBox.swift */; };
 		9E8F26C036F395B4C492B0C7862C1EB6 /* Pods-XBSwiftBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5068604BABFA045F5E4C3402515CB9E9 /* Pods-XBSwiftBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B010FE7B3B154D7C5A1E0E439D3A763F /* XBSwiftBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 778ACC9955BEA7B5DF6C02B8DD03F32C /* XBSwiftBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC788ABF206CED96206F09F77F1A28FE /* UIColor+SwiftBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE59C6D383437CCAD7A938ADB09F076 /* UIColor+SwiftBox.swift */; };
@@ -48,7 +59,7 @@
 		04FE2F254C4BD9E309CD55D0388A72B6 /* Pods-XBSwiftBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XBSwiftBox_Example-dummy.m"; sourceTree = "<group>"; };
 		0ED4A2741BBC8592BD479A1A7CD9E116 /* XBSwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XBSwiftBox.swift; path = XBSwiftBox/Classes/XBSwiftBox.swift; sourceTree = "<group>"; };
 		1370A5B3105D312BEF8219F5EACD9715 /* XBSwiftBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XBSwiftBox.modulemap; sourceTree = "<group>"; };
-		16B4DDA7223542217B3E632320E3AE07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		16B4DDA7223542217B3E632320E3AE07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1A1F3AB20903CAE44EC1A3F40A437CAF /* Pods-XBSwiftBox_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XBSwiftBox_Example"; path = Pods_XBSwiftBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7B33359A9ED61471277939D37AE0DB /* Pods-XBSwiftBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBSwiftBox_Example.modulemap"; sourceTree = "<group>"; };
 		35798D409681357F314EE50F413ADFF2 /* Pods-XBSwiftBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -57,10 +68,10 @@
 		423E391C059CB00451F624CF9D2F1596 /* XBSwiftBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.debug.xcconfig; sourceTree = "<group>"; };
 		5068604BABFA045F5E4C3402515CB9E9 /* Pods-XBSwiftBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBSwiftBox_Example-umbrella.h"; sourceTree = "<group>"; };
 		5ABE084B357F8E70B7D2BDF004F794DC /* UIView+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SwiftBox.swift"; path = "XBSwiftBox/Classes/UIView+SwiftBox.swift"; sourceTree = "<group>"; };
-		5ACDABEF2BDC92D5F99810380ADCA5D0 /* XBSwiftBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XBSwiftBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ACDABEF2BDC92D5F99810380ADCA5D0 /* XBSwiftBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XBSwiftBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C4A338F2991998F696D09802AB7D535 /* Pods-XBSwiftBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XBSwiftBox_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75289D8AC6D1D61A395B8BEF0DA627EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75289D8AC6D1D61A395B8BEF0DA627EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7565E77523FE8C406575AB258FCE503C /* Pods-XBSwiftBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XBSwiftBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		778ACC9955BEA7B5DF6C02B8DD03F32C /* XBSwiftBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-umbrella.h"; sourceTree = "<group>"; };
 		77B7328028EBAD01BD91727710BD4C85 /* UIView+Touchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Touchable.swift"; path = "XBSwiftBox/Classes/UIView+Touchable.swift"; sourceTree = "<group>"; };
@@ -72,8 +83,19 @@
 		81C2EBF036F912B98BB384064550643C /* XBSwiftBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XBSwiftBox-prefix.pch"; sourceTree = "<group>"; };
 		83755DE24D11FDF8B4FFF12ABEB9C5DF /* Pods-XBSwiftBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XBSwiftBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89EC231EF52551564DA0A5B65B53D488 /* XBSwiftBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XBSwiftBox.release.xcconfig; sourceTree = "<group>"; };
+		9A7CE37A2BAC0F9100E48F5E /* CALayer+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+SwiftBox.swift"; sourceTree = "<group>"; };
+		9A7CE37C2BAC0FE200E48F5E /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		9A7CE37E2BAC100D00E48F5E /* Data+Gzip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Gzip.swift"; sourceTree = "<group>"; };
+		9A7CE3802BAC103300E48F5E /* FormListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormListView.swift; sourceTree = "<group>"; };
+		9A7CE3822BAC104600E48F5E /* FreeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeLayout.swift; sourceTree = "<group>"; };
+		9A7CE3842BAC10A000E48F5E /* NSLayoutConstraint+PixelLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+PixelLine.swift"; sourceTree = "<group>"; };
+		9A7CE3862BAC10B400E48F5E /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		9A7CE3882BAC110000E48F5E /* StackBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBuilder.swift; sourceTree = "<group>"; };
+		9A7CE38A2BAC111600E48F5E /* StretchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchableView.swift; sourceTree = "<group>"; };
+		9A7CE38C2BAC112900E48F5E /* String+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Add.swift"; sourceTree = "<group>"; };
+		9A7CE38E2BAC119F00E48F5E /* UINavigationController+SwiftBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+SwiftBox.swift"; sourceTree = "<group>"; };
 		9A806F3A45A6F7AB8534895BE0B7DC23 /* Pods-XBSwiftBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XBSwiftBox_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B312E8809B8A81FB76244A0C97C59077 /* Pods-XBSwiftBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBSwiftBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C3C445CEFED7B564231B328067FC6763 /* UIWindow+SwiftBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+SwiftBox.swift"; path = "XBSwiftBox/Classes/UIWindow+SwiftBox.swift"; sourceTree = "<group>"; };
 		C9DB20416B229B0758206ADBE167FF90 /* Pods-XBSwiftBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XBSwiftBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -138,8 +160,19 @@
 				77B7328028EBAD01BD91727710BD4C85 /* UIView+Touchable.swift */,
 				C3C445CEFED7B564231B328067FC6763 /* UIWindow+SwiftBox.swift */,
 				0ED4A2741BBC8592BD479A1A7CD9E116 /* XBSwiftBox.swift */,
-				0108BDDDCA8C1A144C88ADC05B1ABC6B /* Pod */,
+				9A7CE37A2BAC0F9100E48F5E /* CALayer+SwiftBox.swift */,
+				9A7CE37C2BAC0FE200E48F5E /* CustomNavigationBar.swift */,
+				9A7CE37E2BAC100D00E48F5E /* Data+Gzip.swift */,
+				9A7CE3802BAC103300E48F5E /* FormListView.swift */,
+				9A7CE3822BAC104600E48F5E /* FreeLayout.swift */,
+				9A7CE3842BAC10A000E48F5E /* NSLayoutConstraint+PixelLine.swift */,
+				9A7CE3862BAC10B400E48F5E /* Optional+Extension.swift */,
+				9A7CE3882BAC110000E48F5E /* StackBuilder.swift */,
+				9A7CE38A2BAC111600E48F5E /* StretchableView.swift */,
+				9A7CE38C2BAC112900E48F5E /* String+Add.swift */,
+				9A7CE38E2BAC119F00E48F5E /* UINavigationController+SwiftBox.swift */,
 				B951BA733F27A71181B255C11D3B68A8 /* Support Files */,
+				0108BDDDCA8C1A144C88ADC05B1ABC6B /* Pod */,
 			);
 			name = XBSwiftBox;
 			path = ../..;
@@ -165,7 +198,7 @@
 				89EC231EF52551564DA0A5B65B53D488 /* XBSwiftBox.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XBSwiftBox";
+			path = Example/Pods/XBSwiftBox;
 			sourceTree = "<group>";
 		};
 		BE9C1BB32D44C25179D0D2C96F5C267E /* Targets Support Files */ = {
@@ -399,15 +432,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7CE38B2BAC111600E48F5E /* StretchableView.swift in Sources */,
+				9A7CE3892BAC110000E48F5E /* StackBuilder.swift in Sources */,
+				9A7CE37D2BAC0FE200E48F5E /* CustomNavigationBar.swift in Sources */,
 				E18ACADF8C274C985BA9E7B4DDAABCA1 /* CommonValues.swift in Sources */,
+				9A7CE3872BAC10B400E48F5E /* Optional+Extension.swift in Sources */,
+				9A7CE3812BAC103300E48F5E /* FormListView.swift in Sources */,
 				580C5B9D71FE4C37E7358E888FEF93B0 /* Constants.swift in Sources */,
 				BC788ABF206CED96206F09F77F1A28FE /* UIColor+SwiftBox.swift in Sources */,
 				E0E030904ACD34C4058D77C3DBF42813 /* UIImage+SwiftBox.swift in Sources */,
 				352E6D43D253F9FCE50855FEF74BF47A /* UITextInput+SwiftBox.swift in Sources */,
+				9A7CE38D2BAC112900E48F5E /* String+Add.swift in Sources */,
+				9A7CE3832BAC104600E48F5E /* FreeLayout.swift in Sources */,
 				95F2A2B273B74AD0C3F8DD80E4E8D3A3 /* UIView+SwiftBox.swift in Sources */,
+				9A7CE38F2BAC119F00E48F5E /* UINavigationController+SwiftBox.swift in Sources */,
 				0AE4F29D0CA78D4430D77B877C70701D /* UIView+Touchable.swift in Sources */,
 				89F526F5F229A3D1C15FA4B03A1FE32C /* UIWindow+SwiftBox.swift in Sources */,
+				9A7CE37F2BAC100D00E48F5E /* Data+Gzip.swift in Sources */,
 				7ED0B6CC2779AA1AD040475160EBD1E4 /* XBSwiftBox.swift in Sources */,
+				9A7CE37B2BAC0F9100E48F5E /* CALayer+SwiftBox.swift in Sources */,
+				9A7CE3852BAC10A000E48F5E /* NSLayoutConstraint+PixelLine.swift in Sources */,
 				1B80DC70EB211D360135B6A21D865FD0 /* XBSwiftBox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,8 +670,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
